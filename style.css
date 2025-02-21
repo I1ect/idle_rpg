@@ -1,0 +1,51 @@
+body {
+    max-width: 1200px;
+    font-size: 24px;
+    background-color: white;
+}
+
+#playerStats {
+    width: 1200px;
+    height: 50px;
+    font-size: 32px;
+    display: flex;
+    text-align: center;
+    justify-content: space-evenly;
+    border-bottom: 4px solid black;
+}
+
+#mainPage {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#enemyTab {
+    height: 400px;
+    width: 800px;
+    margin: 15px;
+}
+
+#equipsTab {
+    height: 400px;
+    width: 200px;
+    margin: 15px;
+}
+
+#monstersTab {
+    height: 400px;
+    width: 200px;
+    margin: 15px;
+}
+
+#enemyStatsTab {
+    height: 360px;
+    width: 250px;
+    margin: 10px;
+    text-align: center;
+}
+
+#enemyTab, #equipsTab, #monstersTab, #enemyStatsTab {
+    border: 4px solid black;
+    padding: 5px;
+}
+

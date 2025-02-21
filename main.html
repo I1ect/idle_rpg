@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+    <head>
+        <title> Incremental RPG </title>
+        <link rel="stylesheet" href="style.css">
+        <meta charset="utf-8">
+    </head>
+
+    <body>
+        <div id="playerStats">
+            <span id="healthDisplay" class="top-display-element">Health: <span class="resource-stat" id="currentHealth"></span>/<span class="resource-stat" id ="maxHealth"></span></span>
+            <span id="levelDisplay" class="top-display-element">Level: <span class="resource-stat" id="level"></span> (<span class="resource-stat" id="currentExperience"></span>/<span class="resource-stat" id="requiredExperience"></span>)</span>
+            <span id="damageDisplay" class="top-display-element">Damage: <span class="resource-stat" id="damage"></span></span>
+            <span id="attackSpeedDisplay" class="top-display-element">Attack Speed: <span class="resource-stat" id="attackSpeed"></span></span>
+            <span id="resistanceDisplay" class="top-display-element">Resistance: <span class="resource-stat" id="resistance">0</span>%</span>
+            <span id="goldDisplay" class="top-display-element">Gold: <span class="resource-stat" id="gold">0</span></span>
+        </div>
+
+        <div id="mainPage">
+
+            <div id="equipsTab">
+                Equips:
+                1.
+                2.
+                3.
+                4.
+                5
+            </div>
+
+            <div id="enemyTab">
+                <div id="enemyStatsTab">
+                    Enemy:
+                    <p>Health: <span id="enemyHealth">30</span>/<span id="enemyMaxHealth">30</span></p>
+                    <p>Damage: <span id="enemyDamage">6</span></p>
+                    <p>Defense: <span id="enemyDefense">3</span></p>
+                    <p>Attack Speed: <span id="enemyAttackSpeed">2</span></p>
+                    <p>Gold Reward: <span id="enemyGoldReward">5</span></p>
+                    <p>Experience Reward: <span id="enemyExperienceReward">5</span></p>
+                </div>
+            </div>
+
+            <div id="monstersTab">
+                Monsters:
+                1.
+                2.
+                3.
+                4.
+                5
+            </div>
+        </div>
+
+
+        <script src="scripts/main.js"></script>
+    </body>
+</html>
